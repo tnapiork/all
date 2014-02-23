@@ -1,0 +1,40 @@
+
+**** Build of configuration Debug for project lekcja01 ****
+
+/opt/ti/ccsv5/utils/bin/gmake -k all 
+Building file: ../blink.c
+Invoking: MSP430 Compiler
+"/opt/ti/ccsv5/tools/compiler/msp430_4.2.1/bin/cl430" -vmsp --abi=eabi --include_path="/opt/ti/ccsv5/ccs_base/msp430/include" --include_path="/opt/ti/ccsv5/tools/compiler/msp430_4.2.1/include" --advice:power=all -g --define=__MSP430G2231__ --diag_warning=225 --display_error_number --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="blink.pp"  "../blink.c"
+"../blink.c", line 37: warning #112-D: statement is unreachable
+Finished building: ../blink.c
+ 
+Building target: lekcja01.out
+Invoking: MSP430 Linker
+"/opt/ti/ccsv5/tools/compiler/msp430_4.2.1/bin/cl430" -vmsp --abi=eabi --advice:power=all -g --define=__MSP430G2231__ --diag_warning=225 --display_error_number --diag_wrap=off --printf_support=minimal -z -m"lekcja01.map" --heap_size=0 --stack_size=50 -i"/opt/ti/ccsv5/ccs_base/msp430/include" -i"/opt/ti/ccsv5/tools/compiler/msp430_4.2.1/lib" -i"/opt/ti/ccsv5/tools/compiler/msp430_4.2.1/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="lekcja01_linkInfo.xml" --rom_model -o "lekcja01.out"  "./blink.obj" "../lnk_msp430g2231.cmd" -l"libc.a" 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changes using LPMx or _bis_SR_register() or __low_power_mode_x() in this project.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: lekcja01.out
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lekcja00 ****
+
+/opt/ti/ccsv5/utils/bin/gmake -k all 
+Building file: ../blink.c
+Invoking: MSP430 Compiler
+"/opt/ti/ccsv5/tools/compiler/msp430_4.2.1/bin/cl430" -vmsp --abi=eabi --include_path="/opt/ti/ccsv5/ccs_base/msp430/include" --include_path="/opt/ti/ccsv5/tools/compiler/msp430_4.2.1/include" --advice:power=all -g --define=__MSP430G2231__ --diag_warning=225 --display_error_number --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="blink.pp"  "../blink.c"
+"../blink.c", line 37: warning #112-D: statement is unreachable
+Finished building: ../blink.c
+ 
+Building target: lekcja00.out
+Invoking: MSP430 Linker
+"/opt/ti/ccsv5/tools/compiler/msp430_4.2.1/bin/cl430" -vmsp --abi=eabi --advice:power=all -g --define=__MSP430G2231__ --diag_warning=225 --display_error_number --diag_wrap=off --printf_support=minimal -z -m"lekcja00.map" --heap_size=0 --stack_size=50 -i"/opt/ti/ccsv5/ccs_base/msp430/include" -i"/opt/ti/ccsv5/tools/compiler/msp430_4.2.1/lib" -i"/opt/ti/ccsv5/tools/compiler/msp430_4.2.1/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="lekcja00_linkInfo.xml" --rom_model -o "lekcja00.out"  "./blink.obj" "../lnk_msp430g2231.cmd" -l"libc.a" 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changes using LPMx or _bis_SR_register() or __low_power_mode_x() in this project.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: lekcja00.out
+ 
+
+**** Build Finished ****
