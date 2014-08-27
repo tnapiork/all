@@ -1,0 +1,7 @@
+
+**** Build of configuration 433MHz - Limited CCS Core Edition for project ez430_chronos ****
+
+/opt/ti/ccsv6/utils/bin/gmake -k all 
+gmake: Nie ma nic do zrobienia w `all'.
+
+**** Build Finished ****
